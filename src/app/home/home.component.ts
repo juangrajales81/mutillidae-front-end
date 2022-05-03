@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   imgPath: string = 'assets/images/';
+
   thumbnails : any = {
     gettingStarted : this.imgPath + 'getting-started_250x250.jpg',
     whatShouldIDo : this.imgPath + 'what-should-i-do_250x250.jpg',
@@ -18,6 +19,12 @@ export class HomeComponent implements OnInit {
     donate : this.imgPath + 'donate_250x250.jpg',
     mutilliadeLdifFile : this.imgPath + 'mutilliade-ldif-file_250x250.jpg',
   };
+
+  banners: any = {
+    banner1: this.imgPath + 'banner1_1024x180.jpg',
+    banner2: this.imgPath + 'banner2_1024x180.jpg',
+    banner3: this.imgPath + 'banner3_1024x180.jpg',
+  }
 
   constructor() {
 
