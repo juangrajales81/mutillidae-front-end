@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
-
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
@@ -21,10 +20,10 @@ import { ListingOfVulnerabilitiesComponent } from './listing-of-vulnerabilities/
 import { HelpfulHintsAndScriptsComponent } from './helpful-hints-and-scripts/helpful-hints-and-scripts.component';
 import { DonateComponent } from './donate/donate.component';
 import { MutillidaeLdifFileComponent } from './mutillidae-ldif-file/mutillidae-ldif-file.component';
-import { ToogleSecurityComponent } from './toogle-security/toogle-security.component';
 import { DropTlsComponent } from './drop-tls/drop-tls.component';
 import { ResetDbComponent } from './reset-db/reset-db.component';
 import { ViewLogComponent } from './view-log/view-log.component';
+import { ToggleSecurityComponent } from './toggle-security/toggle-security.component';
 
 @NgModule({
   declarations: [
@@ -47,10 +46,10 @@ import { ViewLogComponent } from './view-log/view-log.component';
     HelpfulHintsAndScriptsComponent,
     DonateComponent,
     MutillidaeLdifFileComponent,
-    ToogleSecurityComponent,
     DropTlsComponent,
     ResetDbComponent,
-    ViewLogComponent
+    ViewLogComponent,
+    ToggleSecurityComponent
   ],
   imports: [
     BrowserModule,

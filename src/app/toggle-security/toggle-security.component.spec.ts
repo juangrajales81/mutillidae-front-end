@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ToogleSecurityComponent } from './toogle-security.component';
+import { ToggleSecurityComponent } from './toggle-security.component';
 
-describe('ToogleSecurityComponent', () => {
-  let component: ToogleSecurityComponent;
-  let fixture: ComponentFixture<ToogleSecurityComponent>;
+describe('ToggleSecurityComponent', () => {
+  let component: ToggleSecurityComponent;
+  let fixture: ComponentFixture<ToggleSecurityComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ToogleSecurityComponent ]
+      declarations: [ ToggleSecurityComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ToogleSecurityComponent);
+    fixture = TestBed.createComponent(ToggleSecurityComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
