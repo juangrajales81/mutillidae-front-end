@@ -30,16 +30,16 @@
 </div>
 <div class="row my-4 justify-content-center">
   <div class="col-sm-4 col-lg-2 my-2 d-flex justify-content-center">
-    <a name="" id="" class="btn btn-outline-dark btn-block" href="#" role="button">Toggle Security</a>
+    <a name="" id="" class="btn btn-outline-dark btn-block" routerLink="/toggle-security" role="button">Toggle Security</a>
   </div>
   <div class="col-sm-4 col-lg-2 my-2 d-flex justify-content-center">
-    <a name="" id="" class="btn btn-outline-dark btn-block" href="#" role="button">Drop TLS</a>
+    <a name="" id="" class="btn btn-outline-dark btn-block" routerLink="/drop-tls" role="button">Drop TLS</a>
   </div>
   <div class="col-sm-4 col-lg-2 my-2 d-flex justify-content-center">
-    <a name="" id="" class="btn btn-outline-dark btn-block" href="#" role="button">Reset DB</a>
+    <a name="" id="" class="btn btn-outline-dark btn-block" routerLink="/reset-db" role="button">Reset DB</a>
   </div>
   <div class="col-sm-6 col-lg-2 my-2 d-flex justify-content-center">
-    <a name="" id="" class="btn btn-outline-dark btn-block" href="#" role="button">View Log</a>
+    <a name="" id="" class="btn btn-outline-dark btn-block" routerLink="/view-log" role="button">View Log</a>
   </div>
   <div class="col-sm-6 col-lg-2 my-2 d-flex justify-content-center">
     <a name="" id="" routerLink="/captured-data"  class="btn btn-outline-dark btn-block" role="button">View Captured Data</a>
@@ -50,7 +50,7 @@
     <div class="card" style="width: 18rem;">
       <img [src]="thumbnails.gettingStarted" width="286" height="250" class="card-img-top" alt="...">
       <div class="card-body text-center">
-        <a href="#" class="btn btn-primary">Getting Started</a>
+        <a routerLink="/getting-started" class="btn btn-primary">Getting Started</a>
       </div>
     </div>
   </div>
@@ -58,7 +58,7 @@
     <div class="card" style="width: 18rem;">
       <img [src]="thumbnails.whatShouldIDo" width="286" height="250" class="card-img-top" alt="...">
       <div class="card-body text-center">
-        <a href="#" class="btn btn-primary">What Should I Do?</a>
+        <a routerLink="/what-should-i-do" class="btn btn-primary">What Should I Do?</a>
       </div>
     </div>
   </div>
@@ -66,7 +66,7 @@
     <div class="card" style="width: 18rem;">
       <img [src]="thumbnails.helpMe" width="286" height="250" class="card-img-top" alt="...">
       <div class="card-body text-center">
-        <a href="#" class="btn btn-primary">Help Me!</a>
+        <a routerLink="/help-me" class="btn btn-primary">Help Me!</a>
       </div>
     </div>
   </div>
@@ -74,7 +74,7 @@
     <div class="card" style="width: 18rem;">
       <img [src]="thumbnails.videoTutorials" width="286" height="250" class="card-img-top" alt="...">
       <div class="card-body text-center">
-        <a href="#" class="btn btn-primary">Video Tutorials</a>
+        <a routerLink="/video-tutorials" class="btn btn-primary">Video Tutorials</a>
       </div>
     </div>
   </div>
@@ -84,7 +84,7 @@
     <div class="card" style="width: 18rem;">
       <img [src]="thumbnails.listingOfVulnerabilities" width="286" height="250" class="card-img-top" alt="...">
       <div class="card-body text-center">
-        <a href="#" class="btn btn-primary">Listing of vulnerabilities</a>
+        <a routerLink="/listing-of-vulnerabilities" class="btn btn-primary">Listing of vulnerabilities</a>
       </div>
     </div>
   </div>
@@ -92,7 +92,7 @@
     <div class="card" style="width: 18rem;">
       <img [src]="thumbnails.helpfulHintsAndScripts" width="286" height="250" class="card-img-top" alt="...">
       <div class="card-body text-center">
-        <a href="#" class="btn btn-primary">Helpful hints and scripts</a>
+        <a routerLink="/helpful-hints-and-scripts" class="btn btn-primary">Helpful hints and scripts</a>
       </div>
     </div>
   </div>
@@ -100,7 +100,7 @@
     <div class="card" style="width: 18rem;">
       <img [src]="thumbnails.donate" width="286" height="250" class="card-img-top" alt="...">
       <div class="card-body text-center">
-        <a href="#" class="btn btn-primary">Donate</a>
+        <a routerLink="/donate" class="btn btn-primary">Donate</a>
       </div>
     </div>
   </div>
@@ -108,7 +108,7 @@
     <div class="card" style="width: 18rem;">
       <img [src]="thumbnails.mutilliadeLdifFile" width="286" height="250" class="card-img-top" alt="...">
       <div class="card-body text-center">
-        <a href="#" class="btn btn-primary">Mutillidae LDIF File</a>
+        <a routerLink="/mutillidae-ldif-file" class="btn btn-primary">Mutillidae LDIF File</a>
       </div>
     </div>
   </div>
